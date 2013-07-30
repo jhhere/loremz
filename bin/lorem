@@ -1,0 +1,4 @@
+require "loremz/cli"
+
+CLI.start
+
