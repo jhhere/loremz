@@ -1,7 +1,7 @@
 require "loremz/version"
 
 module Loremz
-  def self.ipsum
+  def self.ipsum(options)
     puts "Lorem Ipsum blah blah blah"
     puts "Try-hard fap Wes Anderson, 90's VHS mustache kogi blue
       bottle pug Truffaut intelligentsia Carles gastropub. Disrupt iPhone viral

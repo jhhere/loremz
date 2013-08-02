@@ -1,7 +1,9 @@
 require "thor"
+require 'loremz'
 
 module Loremz
 class CLI < Thor
+
   option :from
   option :yell, :type => :boolean
   desc "hello NAME", "say hello to NAME"
@@ -16,7 +18,7 @@ class CLI < Thor
   desc "ipsum", "Lorem text generator"
   option :more
   def ipsum
-    Loremz.ipsum
+    Loremz.ipsum(options)
   end
 
 end
