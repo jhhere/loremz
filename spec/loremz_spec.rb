@@ -1,5 +1,4 @@
 require "spec_helper"
-require "loremz"
 
 module Loremz
   describe Loremz do
