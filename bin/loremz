@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "loremz/cli"
+
+Loremz::CLI.start
+
